@@ -1,13 +1,11 @@
 version: '2.1'
 services:
   app:
-    image: rueduphp/php72devlatest:first
+    build: .
     volumes:
       - .:/var/www
     ports:
       - "8800:80"
-    depends_on:
-      - mysql
     links:
       - mysql
       - redis

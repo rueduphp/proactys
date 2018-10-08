@@ -4,6 +4,10 @@
             <form-label>
                 {{ field.name }}
             </form-label>
+
+            <help-text>
+                {{ field.helpText }}
+            </help-text>
         </div>
 
         <div class="w-4/5 px-8 py-6">
@@ -93,6 +97,7 @@ import 'codemirror/mode/xml/xml'
 import 'codemirror/mode/vue/vue'
 import 'codemirror/mode/dockerfile/dockerfile'
 import 'codemirror/keymap/vim'
+import 'codemirror/mode/sql/sql'
 
 import { FormField, HandlesValidationErrors } from 'laravel-nova'
 

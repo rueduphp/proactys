@@ -653,14 +653,14 @@
                 <ul class="row">
                     <li class="col-md-3">
                         <div class="count"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="10" data-to="16812" data-from="0"></span> </span>
-                            <h5>Satisfied Clients</h5>
+                            <h5 class="lightGray">Satisfied Clients</h5>
                         </div>
                     </li>
 
                     <!-- Line Of Codes -->
                     <li class="col-md-3">
                         <div class="count"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="10" data-to="482" data-from="0"></span> </span>
-                            <h5>Millions $ Equity</h5>
+                            <h5 class="weightH5">Millions $ Equity</h5>
                         </div>
                     </li>
 

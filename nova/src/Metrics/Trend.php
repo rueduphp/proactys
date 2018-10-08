@@ -117,7 +117,7 @@ abstract class Trend extends RangedMetric
                         ? $model->getModel()->getQualifiedKeyName()
                         : (new $model)->getQualifiedKeyName();
 
-        return $this->aggregate($request, $model, $unit, 'count', $keyName);
+        return $this->aggregate($request, $model, $unit, 'count', $keyName, $column);
     }
 
     /**
@@ -502,7 +502,7 @@ abstract class Trend extends RangedMetric
         $results = array_merge($possibleDateResults, $results->mapWithKeys(function ($result) use ($request, $unit) {
             return [$this->formatAggregateResultDate(
                 $result->date_result, $unit, $request->twelveHourTime === 'true'
-            ) => (int) number_format($result->aggregate, 0, '.', '')];
+            ) => round($result->aggregate, 0)];
         })->all());
 
         if (count($results) > $request->range) {

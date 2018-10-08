@@ -24,7 +24,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="{{ asset('assets/css/ionicons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/main.css') }}?gg" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 
@@ -99,7 +99,12 @@
                 <div class="container">
 
                     <!-- LOGO -->
-                    <div class="logo"> <a href="/"><img  class="img-responsive" src="{{ asset('assets/images/proactys_logo.png') }}" alt="" ></a> </div>
+                    <div class="logo">
+                        <a href="/">
+                            <img height="35px" src="{{ asset('assets/ico/log1.svg') }}" alt="" >
+                            <img height="35px" src="{{ asset('assets/ico/log2b.svg') }}" alt="" >
+                        </a>
+                    </div>
 
                     <!-- Nav -->
                     <ul class="nav ownmenu">
