@@ -389,4 +389,12 @@ class Cache extends Model implements ArrayAccess
 
         return $this;
     }
+
+    /**
+     * @return string
+     */
+    public function getNamespace(): string
+    {
+        return $this->namespace;
+    }
 }

@@ -4,6 +4,7 @@ namespace Proactys\Services\Query;
 
 use DateTime;
 use Illuminate\Database\Query\Builder as EloquentBuilder;
+use Proactys\Models\Cache;
 
 class Builder extends EloquentBuilder
 {
@@ -127,7 +128,8 @@ class Builder extends EloquentBuilder
     }
 
     /**
-     * @return \Proactys\Services\Cache
+     * @return Cache
+     * @throws \ReflectionException
      */
     protected function getCache()
     {
@@ -137,11 +139,12 @@ class Builder extends EloquentBuilder
     }
 
     /**
-     * @return \Proactys\Services\Cache
+     * @return Cache
+     * @throws \ReflectionException
      */
     protected function getCacheDriver()
     {
-        return cacheService(60, 'queryCache')->setRedis(l('redis'));
+        return (new Cache)->setNamespace('query.cache');
     }
 
     /**
@@ -178,7 +181,7 @@ class Builder extends EloquentBuilder
     {
         $cnx = $this->getCache()->connection();
 
-        $keys = $cnx->keys($this->getCache()->getPrefix() . $this->cachePrefix . ':*');
+        $keys = $cnx->keys($this->getCache()->getNamespace() . $this->cachePrefix . ':*');
 
         /** @var \Predis\Pipeline\Pipeline $pipeline */
         $pipeline = $cnx->pipeline();
