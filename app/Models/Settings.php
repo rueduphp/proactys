@@ -15,7 +15,6 @@ class Settings
 
     public function __construct(string $namespace = 'core')
     {
-        $this->setStore(new Cache);
         $this->namespace = $namespace;
     }
 
@@ -176,7 +175,7 @@ class Settings
      */
     protected function store()
     {
-        return $this->store;
+        return $this->store ?? store();
     }
 
     /**

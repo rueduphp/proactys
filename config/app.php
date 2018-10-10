@@ -150,6 +150,7 @@ return [
         Laravel\Nova\NovaServiceProvider::class,
         Proactys\Providers\NovaServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -214,6 +215,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Nova' => Laravel\Nova\Nova::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Bouncer' => Silber\Bouncer\BouncerFacade::class,
     ],
 
 ];

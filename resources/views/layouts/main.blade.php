@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Proactys">
-    <title>Proactys</title>
+    <title>ProActys</title>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -101,8 +101,9 @@
                     <!-- LOGO -->
                     <div class="logo">
                         <a href="/">
-                            <img height="35px" src="{{ asset('assets/ico/log1.svg') }}" alt="" >
-                            <img height="35px" src="{{ asset('assets/ico/log2b.svg') }}" alt="" >
+                            <img style="height:75px; position: relative; top: -20px;" src="{{ asset
+                            ('assets/images/logo_color.svg') }}"
+                                 alt="" >
                         </a>
                     </div>
 
@@ -196,8 +197,7 @@
 
                 <!-- ABOUT -->
                 <div class="col-md-3">
-                    <img height="50px" src="{{ asset('assets/ico/log1.svg') }}" alt="" >
-                    <img height="50px" src="{{ asset('assets/ico/log2.svg') }}" alt="" >
+                    <img height="90px" src="{{ asset('assets/images/logo_footer.svg') }}" alt="" >
                     <div class="about-foot">
                         <ul>
                             <li>
@@ -263,9 +263,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p> © All Rights Reserved <span class="primary-color">Proactys </span></p>
+                    <p> © All Rights Reserved <span class="primary-color">ProActys </span></p>
                 </div>
-                <div class="col-md-6 text-right"> <a href="#.">Privacy Policy</a> <a href="#.">Terms & Conditions</a> </div>
+                <div class="col-md-6 text-right"> <a href="#">Privacy Policy</a> <a href="#">Terms & Conditions</a> </div>
             </div>
         </div>
     </div>

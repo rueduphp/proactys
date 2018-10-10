@@ -3,16 +3,14 @@ namespace Proactys\Models;
 
 use ArrayAccess;
 
-class Option implements ArrayAccess
+class Element implements ArrayAccess
 {
     /**
      * @return Settings
      */
     public static function self()
     {
-        return \Octo\gi()->make(
-            Settings::class, ['user.' . auth()->user()->getAuthIdentifier()])->setStore(store('user')
-        );
+        return \Octo\gi()->make(Settings::class)->setStore(store('setting'));
     }
 
     /**
@@ -23,11 +21,11 @@ class Option implements ArrayAccess
     public static function __callStatic(string $name, array $arguments)
     {
         $self = static::self();
-        
+
         if (in_array($name, get_class_methods($self))) {
             return $self->{$name}(...$arguments);
         }
-        
+
         return $self->get($name, array_shift($arguments));
     }
 

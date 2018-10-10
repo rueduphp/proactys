@@ -4,6 +4,7 @@ namespace Proactys\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Proactys\Policies\UserPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Proactys\Model' => 'Proactys\Policies\ModelPolicy',
+        'Proactys\Model' => UserPolicy::class,
     ];
 
     /**
