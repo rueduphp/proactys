@@ -81,6 +81,13 @@
       0 => 'Orlyapps\\NovaBelongsToDepend\\FieldServiceProvider',
     ),
   ),
+  'pragmarx/artisan-tool' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'PragmaRX\\ArtisanTool\\ToolServiceProvider',
+    ),
+  ),
   'spatie/laravel-permission' => 
   array (
     'providers' => 

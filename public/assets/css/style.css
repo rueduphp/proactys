@@ -629,6 +629,19 @@ header .navbar li.active a {
 	background: url(../images/slides/slide-2.jpg) center center no-repeat;
 	background-size: cover;
 }
+.home-slide .slide-img-3 {
+  background: url(../images/slides/slide-1.jpg) no-repeat;
+  background-size: cover;
+}
+.home-slide .slide-img-4 {
+  background: url(../images/slides/slide-2.jpg) center center no-repeat;
+  background-size: cover;
+}
+.home-slide li h5 {
+	font-size: 18px;
+	font-family: 'montserratlight';
+	letter-spacing:9px;
+}
 .home-slide .flex-control-nav {
 	position: absolute;
     z-index: 99;

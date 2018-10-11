@@ -24,7 +24,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="{{ asset('assets/css/ionicons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/main.css') }}?gg" rel="stylesheet">
+    <link href="{{ asset('assets/css/main.css') }}?time=<?=time()?>" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 
@@ -51,7 +51,6 @@
 
 <!-- Wrap -->
 <div id="wrap">
-
     <!-- header -->
     <header>
 
@@ -61,13 +60,13 @@
                 <div class="container">
                     <ul class="personal-info">
                         <li>
-                            <p><i class="fa fa-phone"></i> +1 123 456 7890 </p>
+                            <p><i class="fa fa-phone"></i> +41 44 687 76 39 </p>
                         </li>
                         <li>
-                            <p>Hi! Here comes custom txt line </p>
+                            <p>Firststrasse 1 CH-8835 Feusisberg </p>
                         </li>
                         <li>
-                            <p>example@example.com </p>
+                            <p>info@proactys.swiss </p>
                         </li>
                     </ul>
 
@@ -77,8 +76,8 @@
                         <!-- Language -->
                         <select class="selectpicker">
                             <option>English</option>
-                            <option>French</option>
-                            <option>Relish</option>
+                            <option>Français</option>
+                            <option>Deutsch</option>
                         </select>
 
                         <!-- social -->
@@ -109,72 +108,8 @@
 
                     <!-- Nav -->
                     <ul class="nav ownmenu">
-                        <li class="active"> <a href="/">Home </a>
-                            <ul class="dropdown">
-                                <li> <a href="/">Home Boxed</a> </li>
-                            </ul>
-                        </li>
-                        <li> <a href="/">Pages </a>
-                            <ul class="dropdown">
-                                <li> <a href="/">About</a> </li>
-                                <li> <a href="/">Shop</a>
-                                    <ul class="dropdown">
-                                        <li> <a href="/">Shop</a> </li>
-                                        <li> <a href="/">Shop Single</a> </li>
-                                        <li> <a href="/">Checkout Step1</a> </li>
-                                        <li> <a href="/">Checkout Step2</a> </li>
-                                        <li> <a href="/">Checkout Step3</a> </li>
-                                        <li> <a href="/">Checkout Address(step2)</a> </li>
-                                    </ul>
-                                </li>
-                                <li> <a href="/">Services </a>
-                                    <ul class="dropdown">
-                                        <li> <a href="/">Services Version 1</a> </li>
-                                        <li> <a href="/">Services Version 2</a> </li>
-                                        <li> <a href="/">Services Version 3</a> </li>
-                                    </ul>
-                                </li>
-                                <li> <a href="/">Team </a>
-                                    <ul class="dropdown">
-                                        <li> <a href="/">Team 2 Columns</a> </li>
-                                    </ul>
-                                </li>
-                                <li> <a href="/">Jobs </a>
-                                    <ul class="dropdown">
-                                        <li> <a href="/">Jobs Right Sidebar </a></li>
-                                    </ul>
-                                </li>
-                                <li> <a href="/">Revenues </a></li>
-                                <li> <a href="/">Company Presentation</a></li>
-                                <li> <a href="/">Blog </a></li>
-                                <li> <a href="/">Blog Single </a></li>
-                                <li> <a href="/">Contact</a></li>
-                            </ul>
-                        </li>
-                        <li> <a href="/">About </a> </li>
-                        <li> <a href="/">Services </a>
-                            <ul class="dropdown">
-                                <li> <a href="/">Services Version 1</a> </li>
-                                <li> <a href="/">Services Version 2</a> </li>
-                            </ul>
-                        </li>
-                        <li> <a href="/">Team </a>
-                            <ul class="dropdown">
-                                <li> <a href="/">Team 2 Columns</a> </li>
-                                <li> <a href="/">Team 3 Columns</a> </li>
-                                <li> <a href="/">Team 4 Columns</a> </li>
-                            </ul>
-                        </li>
-                        <li> <a href="/">Jobs </a>
-                            <ul class="dropdown">
-                                <li> <a href="/">Jobs Right Sidebar </a></li>
-                                <li> <a href="/">Jobs Left Sidebar </a></li>
-                                <li> <a href="/">Jobs (single) Left Sidebar </a></li>
-                                <li> <a href="/">Jobs (single) Right Sidebar </a></li>
-                            </ul>
-                        </li>
-                        <li> <a href="/">Blog </a></li>
-                        <li> <a href="/">Contact</a> </li>
+                        <li class="active"> <a href="/">Home </a>=
+                        <li> <a href="{{ route('contact')  }}">Contact</a> </li>
                     </ul>
                     <!-- Search -->
                     <div class="search-icon"> <a href="#."><i class="fa fa-search"></i></a>
@@ -187,6 +122,12 @@
             </div>
         </nav>
     </header>
+
+    <div class="container">
+        @if (Session::has('success'))
+            <div class="alert alert-success shouldDisappear">{{ Session::get('success') }}</div>
+        @endif
+    </div>
 
     @yield('content')
 
@@ -201,13 +142,13 @@
                     <div class="about-foot">
                         <ul>
                             <li>
-                                <p><i class="fa fa-map-marker"></i> 795 Folsom Ave, Suite 600, San Francisco, CA 94107</p>
+                                <p><i class="fa fa-map-marker"></i>Firststrasse 1 CH-8835 Feusisberg</p>
                             </li>
                             <li>
-                                <p><i class="fa fa-phone"></i> (123) 456-7890</p>
+                                <p><i class="fa fa-phone"></i> +41 44 687 76 39</p>
                             </li>
                             <li>
-                                <p><i class="fa fa-envelope"></i> example@example.com</p>
+                                <p><i class="fa fa-envelope"></i> info@proactys.swiss</p>
                             </li>
                         </ul>
                     </div>
@@ -243,15 +184,15 @@
                 <div class="col-md-3">
                     <h6>Categories</h6>
                     <ul class="tags">
-                        <li><a href="#.">User Experience</a></li>
-                        <li><a href="#.">html 5</a></li>
-                        <li><a href="#.">Css 3</a></li>
-                        <li><a href="#.">Web Design</a></li>
-                        <li><a href="#.">Social Media</a></li>
-                        <li><a href="#.">Web Development</a></li>
-                        <li><a href="#.">Print Design</a></li>
-                        <li><a href="#.">e-commerce</a></li>
-                        <li><a href="#.">Java script</a></li>
+                        <li><a href="#.">Project Manager</a></li>
+                        <li><a href="#.">Business Analyst</a></li>
+                        <li><a href="#.">Test Manager</a></li>
+                        <li><a href="#.">Zürich</a></li>
+                        <li><a href="#.">Geneva</a></li>
+                        <li><a href="#.">Lausanne</a></li>
+                        <li><a href="#.">Bern</a></li>
+                        <li><a href="#.">Basle</a></li>
+                        <li><a href="#.">Zug</a></li>
                     </ul>
                 </div>
             </div>
@@ -283,5 +224,11 @@
 <script src="{{ asset('assets/js/main.js') }}"></script>
 @yield('js')
 </body>
-
+<script type="text/javascript">
+    $(document).ready(function() {
+        setTimeout(function () {
+            $('.shouldDisappear').fadeOut();
+        }, 5000);
+    });
+</script>
 </html>

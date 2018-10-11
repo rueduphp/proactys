@@ -8,16 +8,29 @@
             <!-- SLIDER 1 -->
             <li class="slide-img-1" data-stellar-background-ratio="0.6">
                 <div class="position-center-center">
-                    <h1>Information on Demand</h1>
-                    <h5>Truly Corporate Theme</h5>
+                    <h1>Business Process Management</h1>
+                    <a href="#." class="btn margin-top-30">Read More <i class="fa fa-caret-right"></i></a>
+                </div>
+            </li>
+
+            <!-- SLIDER 2 -->
+            <li class="slide-img-2" data-stellar-background-ratio="0.6">
+                <div class="position-center-center">
+                    <h1>Enterprise Content Management</h1>
+                    <a href="#." class="btn margin-top-30">Read More <i class="fa fa-caret-right"></i></a> </div>
+            </li>
+
+            <!-- SLIDER 2 -->
+            <li class="slide-img-1" data-stellar-background-ratio="0.6">
+                <div class="position-center-center">
+                    <h1>Business Intelligence</h1>
                     <a href="#." class="btn margin-top-30">Read More <i class="fa fa-caret-right"></i></a> </div>
             </li>
 
             <!-- SLIDER 2 -->
             <li class="slide-img-2" data-stellar-background-ratio="0.6">
                 <div class="position-center-center">
-                    <h1>iod HTML5 template</h1>
-                    <h5>Truly Corporate Theme</h5>
+                    <h1>Digitalisation</h1>
                     <a href="#." class="btn margin-top-30">Read More <i class="fa fa-caret-right"></i></a> </div>
             </li>
         </ul>
@@ -42,7 +55,7 @@
                         <li class="col-md-4" data-content="#colio_c1">
                             <article class="thumb"> <a class="button colio-link" href="#"> <i class="far
                             fa-chart-bar"></i>
-                                    <h5>Analytics</h5>
+                                    <h5>Project Management</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
                                 </a> </article>
                         </li>
@@ -50,7 +63,7 @@
                         <!-- Storage -->
                         <li class="col-md-4" data-content="#colio_c2">
                             <article class="thumb"><a class="button colio-link" href="#"> <i class="fa fa-archive"></i>
-                                    <h5>Storage</h5>
+                                    <h5>Business Analysis</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
                                 </a> </article>
                         </li>
@@ -59,7 +72,7 @@
                         <li class="col-md-4" data-content="#colio_c3">
                             <article class="thumb"><a class="button colio-link" href="#"> <i class="fas
                             fa-shield-alt"></i>
-                                    <h5>Security</h5>
+                                    <h5>Test Management</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
                                 </a> </article>
                         </li>
@@ -67,7 +80,7 @@
                         <!-- Worth -->
                         <li class="col-md-4" data-content="#colio_c4">
                             <article class="thumb"><a class="button colio-link" href="#"> <i class="fa fa-rocket"></i>
-                                    <h5>Worth</h5>
+                                    <h5>PMO Services</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
                                 </a> </article>
                         </li>
@@ -76,7 +89,7 @@
                         <li class="col-md-4" data-content="#colio_c5">
                             <article class="thumb"><a class="button colio-link" href="#"> <i class="far
                             fa-comments"></i>
-                                    <h5>Dialogue</h5>
+                                    <h5>Change Management</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
                                 </a> </article>
                         </li>
@@ -84,7 +97,7 @@
                         <!-- Worth -->
                         <li class="col-md-4" data-content="#colio_c6">
                             <article class="thumb"><a class="button colio-link" href="#"> <i class="fa fa-bullhorn"></i>
-                                    <h5>Direction</h5>
+                                    <h5>Process Optimisation</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
                                 </a> </article>
                         </li>
@@ -242,7 +255,7 @@
             <div class="container">
                 <!-- Heading -->
                 <div class="heading text-center">
-                    <h4>Our Recent Work</h4>
+                    <h4>LATESTS CAREERS</h4>
                 </div>
 
                 <!-- PORTOFLIO ITEMS FILTER -->
@@ -251,22 +264,31 @@
                         <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All
                             <div class="cbp-filter-counter"></div>
                         </div>
-                        <div data-filter=".ana" class="cbp-filter-item"> Analytics
+                        <div data-filter=".ana" class="cbp-filter-item"> Project Manager
                             <div class="cbp-filter-counter"></div>
                         </div>
-                        <div data-filter=".dial" class="cbp-filter-item"> Dialogue
+                        <div data-filter=".dial" class="cbp-filter-item"> Business Analyst
                             <div class="cbp-filter-counter"></div>
                         </div>
-                        <div data-filter=".direc" class="cbp-filter-item"> Direction
+                        <div data-filter=".direc" class="cbp-filter-item"> Test Manager
                             <div class="cbp-filter-counter"></div>
                         </div>
-                        <div data-filter=".growth" class="cbp-filter-item"> Growth
+                        <div data-filter=".growth" class="cbp-filter-item"> Zürich
                             <div class="cbp-filter-counter"></div>
                         </div>
-                        <div data-filter=".sec" class="cbp-filter-item">Security
+                        <div data-filter=".sec" class="cbp-filter-item">Geneva
                             <div class="cbp-filter-counter"></div>
                         </div>
-                        <div data-filter=".storage" class="cbp-filter-item">Storage
+                        <div data-filter=".storage" class="cbp-filter-item">Lausanne
+                            <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".storage" class="cbp-filter-item">Bern
+                            <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".storage" class="cbp-filter-item">Basle
+                            <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".storage" class="cbp-filter-item">Zug
                             <div class="cbp-filter-counter"></div>
                         </div>
                     </div>
@@ -384,7 +406,7 @@
             <div class="container">
                 <!-- Heading -->
                 <div class="heading text-center">
-                    <h4>Latest from the blog</h4>
+                    <h4>NEXT TRAINING SESSIONS</h4>
                 </div>
                 <!-- Blog Row -->
                 <div class="row blog-slide">
@@ -396,7 +418,30 @@
                             <div class="date"> 19 <span>MAY</span> </div>
 
                             <!-- Detail -->
-                            <div class="post-detail"> <a href="#." class="post-tittle">April stats Details</a> <span>By Admin  /  2 Comments</span>
+                            <div class="post-detail"> <a href="#." class="post-tittle">AGILITY</a> <span>By Admin  /  2 Comments</span>
+                                <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Blog Post -->
+                    <div class="col-md-12 no-padding">
+                        <article> <img class="img-responsive" src="{{ asset('assets/images/blog/img-2.jpg') }}" alt="" >
+                            <!-- Date -->
+                            <div class="date"> 19 <span>MAY</span> </div>
+                            <!-- Detail -->
+                            <div class="post-detail"> <a href="#." class="post-tittle">Scrum</a> <span>By Admin  /  2
+                                    Comments</span>
+                                <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Blog Post -->
+                    <div class="col-md-12 no-padding">
+                        <article> <img class="img-responsive" src="{{ asset('assets/images/blog/img-3.jpg') }}" alt="" >
+                            <!-- Date -->
+                            <div class="date"> 19 <span>MAY</span> </div>
+                            <!-- Detail -->
+                            <div class="post-detail"> <a href="#." class="post-tittle">CHANGE MANAGEMENT</a> <span>By Admin  /  2 Comments</span>
                                 <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet.</p>
                             </div>
                         </article>
@@ -418,18 +463,7 @@
                             <!-- Date -->
                             <div class="date"> 19 <span>MAY</span> </div>
                             <!-- Detail -->
-                            <div class="post-detail"> <a href="#." class="post-tittle">Team Expanded</a> <span>By Admin  /  2 Comments</span>
-                                <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- Blog Post -->
-                    <div class="col-md-12 no-padding">
-                        <article> <img class="img-responsive" src="{{ asset('assets/images/blog/img-2.jpg') }}" alt="" >
-                            <!-- Date -->
-                            <div class="date"> 19 <span>MAY</span> </div>
-                            <!-- Detail -->
-                            <div class="post-detail"> <a href="#." class="post-tittle">EU LAWs vs US Laws</a> <span>By Admin  /  2 Comments</span>
+                            <div class="post-detail"> <a href="#." class="post-tittle">PROJECT MANAGEMENT</a> <span>By Admin  /  2 Comments</span>
                                 <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet.</p>
                             </div>
                         </article>
@@ -440,18 +474,7 @@
                             <!-- Date -->
                             <div class="date"> 19 <span>MAY</span> </div>
                             <!-- Detail -->
-                            <div class="post-detail"> <a href="#." class="post-tittle">Team Expanded</a> <span>By Admin  /  2 Comments</span>
-                                <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- Blog Post -->
-                    <div class="col-md-12 no-padding">
-                        <article> <img class="img-responsive" src="{{ asset('assets/images/blog/img-3.jpg') }}" alt="" >
-                            <!-- Date -->
-                            <div class="date"> 19 <span>MAY</span> </div>
-                            <!-- Detail -->
-                            <div class="post-detail"> <a href="#." class="post-tittle">Team Expanded</a> <span>By Admin  /  2 Comments</span>
+                            <div class="post-detail"> <a href="#." class="post-tittle">BUSINESS ANALYSIS</a> <span>By Admin  /  2 Comments</span>
                                 <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet.</p>
                             </div>
                         </article>
@@ -465,7 +488,7 @@
             <div class="container">
                 <!-- Heading -->
                 <div class="heading text-center">
-                    <h4>outstanding features</h4>
+                    <h4>INDUSTRIES</h4>
                 </div>
 
                 <!-- Features -->
@@ -477,7 +500,7 @@
                                 <li>
                                     <div class="media">
                                         <div class="media-body">
-                                            <h6>Gorgeous Design</h6>
+                                            <h6>Banks</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                         <div class="media-right">
@@ -488,7 +511,7 @@
                                 <li>
                                     <div class="media">
                                         <div class="media-body">
-                                            <h6>Responsive Design</h6>
+                                            <h6>Wealth and Asset Management</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                         <div class="media-right">
@@ -499,7 +522,7 @@
                                 <li>
                                     <div class="media">
                                         <div class="media-body">
-                                            <h6>Cross Browser Support</h6>
+                                            <h6>Insurance Companies / Pension Funds</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                         <div class="media-right">
@@ -523,7 +546,7 @@
                                             <div class="icon"> <i class="fa fa-cog"></i> </div>
                                         </div>
                                         <div class="media-body">
-                                            <h6>Easy to Customize</h6>
+                                            <h6>Energy</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                     </div>
@@ -534,7 +557,7 @@
                                             <div class="icon"> <i class="icon-layers"></i> </div>
                                         </div>
                                         <div class="media-body">
-                                            <h6>Exlusive Features</h6>
+                                            <h6>Transport</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                     </div>
@@ -545,7 +568,7 @@
                                             <div class="icon"> <i class="icon-bulb"></i> </div>
                                         </div>
                                         <div class="media-body">
-                                            <h6>Innovative Ideas</h6>
+                                            <h6>Not for Profit Organizations</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                     </div>
@@ -561,8 +584,8 @@
         <section class="testi-bg padding-top-100 padding-bottom-100" >
             <div class="container">
                 <div class="testi">
-                    <p> There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. UOU Apps, is by far one of the worlds best known brands.</p>
-                    <h6>Jane Doe / <span class="primary-color">Company Inc.</span></h6>
+                    <p>Good reference</p>
+                    <h6>Chantal Bellue / <span class="primary-color">ProActys Inc.</span></h6>
                 </div>
             </div>
         </section>
@@ -581,9 +604,9 @@
 
                         <!-- Member -->
                         <div class="col-md-3">
-                            <article> <img class="img-responsive" src="{{ asset('assets/images/team-img-1-1.jpg') }}"
+                            <article> <img class="img-responsive" src="{{ asset('assets/images/team-img-1-2.jpg') }}"
                                            alt="" >
-                                <h5>Jeff Walsh</h5>
+                                <h5>Chantal</h5>
                                 <span>CEO</span>
                                 <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci.</p>
                                 <ul class="social">
@@ -597,9 +620,9 @@
 
                         <!-- Member -->
                         <div class="col-md-3">
-                            <article> <img class="img-responsive" src="{{ asset('assets/images/team-img-1-2.jpg') }}"
+                            <article> <img class="img-responsive" src="{{ asset('assets/images/team-img-1-1.jpg') }}"
                                            alt="" >
-                                <h5>Janet Adams</h5>
+                                <h5>Sylvain</h5>
                                 <span>Human Resources</span>
                                 <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci.</p>
                                 <ul class="social">
@@ -614,7 +637,7 @@
                         <!-- Member -->
                         <div class="col-md-3">
                             <article> <img class="img-responsive" src="{{ asset('assets/images/team-img-1-3.jpg') }}" alt="" >
-                                <h5>Colin Weiland</h5>
+                                <h5>Luca</h5>
                                 <span>New Business Manager</span>
                                 <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci.</p>
                                 <ul class="social">
@@ -628,8 +651,9 @@
 
                         <!-- Member -->
                         <div class="col-md-3">
-                            <article> <img class="img-responsive" src="{{ asset('assets/images/team-img-1-4.jpg') }}" alt="" >
-                                <h5>Wendy Willings</h5>
+                            <article> <img class="img-responsive" src="{{ asset('assets/images/team-img-1-1.jpg') }}"
+                                           alt="" >
+                                <h5>Jean-Marc</h5>
                                 <span>Public Relations</span>
                                 <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci.</p>
                                 <ul class="social">
@@ -652,29 +676,33 @@
                 <!-- Team Member -->
                 <ul class="row">
                     <li class="col-md-3">
-                        <div class="count"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="10" data-to="16812" data-from="0"></span> </span>
-                            <h5 class="lightGray">Satisfied Clients</h5>
+                        <div class="count"> <span class="number"> <span class="timer" data-speed="2000"
+                                                                        data-refresh-interval="10" data-to="2016"
+                                                                        data-from="0"></span> </span>
+                            <h5 class="lightGray">Creation date</h5>
                         </div>
                     </li>
 
                     <!-- Line Of Codes -->
                     <li class="col-md-3">
-                        <div class="count"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="10" data-to="482" data-from="0"></span> </span>
-                            <h5 class="weightH5">Millions $ Equity</h5>
+                        <div class="count"> <span class="number"> <span class="timer" data-speed="2000"
+                                                                        data-refresh-interval="10" data-to="3"
+                                                                        data-from="0"></span> </span>
+                            <h5 class="weightH5">Cantons included</h5>
                         </div>
                     </li>
 
                     <!-- Satisfied Client -->
                     <li class="col-md-3">
                         <div class="count"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="10" data-to="92" data-from="0"></span> </span>
-                            <h5>Partners in Holding</h5>
+                            <h5>Realized projects</h5>
                         </div>
                     </li>
 
                     <!-- PSD file included -->
                     <li class="col-md-3">
                         <div class="count"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="10" data-to="2980" data-from="0"></span> </span>
-                            <h5>Professionals</h5>
+                            <h5>Happy customers</h5>
                         </div>
                     </li>
                 </ul>

@@ -151,6 +151,7 @@ return [
         Proactys\Providers\NovaServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
+        Thujohn\Twitter\TwitterServiceProvider::class,
 
         /*
          * Package Service Providers...
