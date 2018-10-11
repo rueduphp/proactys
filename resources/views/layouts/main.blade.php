@@ -138,7 +138,8 @@
 
                 <!-- ABOUT -->
                 <div class="col-md-3">
-                    <img height="90px" src="{{ asset('assets/images/logo_footer.svg') }}" alt="" >
+                    <img style="height:90px; position: relative; top: -20px;" src="{{ asset
+                    ('assets/images/logo_footer.svg') }}" alt="" >
                     <div class="about-foot">
                         <ul>
                             <li>
