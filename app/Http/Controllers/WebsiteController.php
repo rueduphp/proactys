@@ -4,7 +4,6 @@ namespace Proactys\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Session;
 use Proactys\Mail\Contact;
 
 class WebsiteController extends Controller

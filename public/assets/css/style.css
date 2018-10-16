@@ -500,7 +500,7 @@ header .navbar li.active a {
 }
 .ownmenu ul.dropdown:before {
 	position: absolute;
-	content: "\f0d8";
+	content: "";
 	top: -25px;
 	font-family: 'FontAwesome';
 	font-size: 30px;

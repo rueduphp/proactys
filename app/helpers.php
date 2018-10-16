@@ -21,3 +21,29 @@ function store(?string $namespace = null)
 
     return $store;
 }
+
+function create($class, $count = null, $attributes = [])
+{
+    return customFactory($class, $count, $attributes, 'create');
+}
+
+function make($class, $count = null, $attributes = [])
+{
+    return customFactory($class, $count, $attributes, 'make');
+}
+
+function raw($class, $count = null, $attributes = [])
+{
+    return customFactory($class, $count, $attributes, 'raw');
+}
+
+function customFactory($class, $count, $attributes, $method)
+{
+    if (is_array($count)) {
+        $attributes = $count;
+        $count = null;
+    }
+
+    return factory($class, $count)->{$method}($attributes);
+}
+

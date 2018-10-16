@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="{{ asset('assets/css/ionicons.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/main.css') }}?time=<?=time()?>" rel="stylesheet">
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}?time=<?=time()?>" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 
     <!-- Online Fonts -->
@@ -99,17 +99,37 @@
 
                     <!-- LOGO -->
                     <div class="logo">
-                        <a href="/">
-                            <img style="height:75px; position: relative; top: -20px;" src="{{ asset
-                            ('assets/images/logo_color.svg') }}"
+                        <a href="{{ route('home') }}">
+                            <img style="height:75px; position: relative; top: -20px;"
+                                 src="{{ asset('assets/images/logo_color.svg') }}"
                                  alt="" >
                         </a>
                     </div>
 
                     <!-- Nav -->
                     <ul class="nav ownmenu">
-                        <li class="active"> <a href="/">Home </a>=
-                        <li> <a href="{{ route('contact')  }}">Contact</a> </li>
+                        <li @if (in_array(Route::currentRouteName(), ['expertise.bpm', 'expertise.ecm', 'expertise
+                        .bi', 'expertise.db']))class="active"@endif> <a href="#" onclick="return false;">Our expertise</a>
+                            <ul class="dropdown">
+                                <li> <a href="{{ route('expertise.bpm') }}">Business Process Management</a> </li>
+                                <li> <a href="{{ route('expertise.ecm') }}">Enterprise Content Management</a> </li>
+                                <li> <a href="{{ route('expertise.bi') }}">Business Intelligence</a> </li>
+                                <li> <a href="{{ route('expertise.db') }}">Digital Transformation</a> </li>
+                                <li> <a href="{{ route('expertise.agility') }}">Agility</a> </li>
+                            </ul>
+                        </li>
+                        <li @if (in_array(Route::currentRouteName(), ['services.ep', 'services.pm', 'services
+                        .tc']))class="active"@endif> <a href="#" onclick="return false;">Services</a>
+                            <ul class="dropdown">
+                                <li> <a href="{{ route('services.ep') }}">Enterprise Performance</a> </li>
+                                <li> <a href="{{ route('services.pm') }}">Program Management</a> </li>
+                                <li> <a href="{{ route('services.tc') }}">Training &amp; Coaching</a> </li>
+                            </ul>
+                        </li>
+                        <li @if ('about' === Route::currentRouteName())class="active"@endif> <a href="{{ route
+                        ('about') }}">About us</a> </li>
+                        <li @if ('contact' === Route::currentRouteName())class="active"@endif> <a href="{{ route
+                        ('contact') }}">Contact</a> </li>
                     </ul>
                     <!-- Search -->
                     <div class="search-icon"> <a href="#."><i class="fa fa-search"></i></a>

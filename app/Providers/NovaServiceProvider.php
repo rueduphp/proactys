@@ -67,7 +67,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     {
         return [
             \Vyuldashev\NovaPermission\NovaPermissionTool::make(),
-            new \PragmaRX\ArtisanTool\Tool(),
+            new \Beyondcode\TinkerTool\Tinker(),
         ];
     }
 

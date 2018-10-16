@@ -1,4 +1,11 @@
 <?php return array (
+  'alfonsobries/nova-froala-editor' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Vexilo\\NovaFroalaEditor\\NovaFroalaEditorServiceProvider',
+    ),
+  ),
   'barryvdh/laravel-debugbar' => 
   array (
     'providers' => 
@@ -8,6 +15,13 @@
     'aliases' => 
     array (
       'Debugbar' => 'Barryvdh\\Debugbar\\Facade',
+    ),
+  ),
+  'beyondcode/nova-tinker-tool' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Beyondcode\\TinkerTool\\TinkerToolServiceProvider',
     ),
   ),
   'coderello/laravel-nova-lang' => 
@@ -22,6 +36,13 @@
     'providers' => 
     array (
       0 => 'Digitalcloud\\MultilingualNova\\FieldServiceProvider',
+    ),
+  ),
+  'emilianotisato/nova-tinymce' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Emilianotisato\\NovaTinyMCE\\FieldServiceProvider',
     ),
   ),
   'fideloper/proxy' => 
@@ -40,6 +61,13 @@
     'aliases' => 
     array (
       'Image' => 'Intervention\\Image\\Facades\\Image',
+    ),
+  ),
+  'joffreyc22/nova-french-datepicker' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'JoffreyC22\\FrenchDatepicker\\FieldServiceProvider',
     ),
   ),
   'laravel/nova' => 

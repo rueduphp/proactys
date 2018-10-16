@@ -52,200 +52,71 @@
                 <div class="container">
                     <ul class="row list">
                         <!-- Analytics -->
-                        <li class="col-md-4" data-content="#colio_c1">
-                            <article class="thumb"> <a class="button colio-link" href="#"> <i class="far
-                            fa-chart-bar"></i>
-                                    <h5>Project Management</h5>
+                        <li class="col-md-4">
+                            <article class="thumb">
+                                <a class="button" href="#">
+                                    <i class="far fa-chart-bar"></i>
+                                    <h5>Change Management</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
-                                </a> </article>
+                                </a>
+                            </article>
                         </li>
 
                         <!-- Storage -->
-                        <li class="col-md-4" data-content="#colio_c2">
-                            <article class="thumb"><a class="button colio-link" href="#"> <i class="fa fa-archive"></i>
-                                    <h5>Business Analysis</h5>
+                        <li class="col-md-4">
+                            <article class="thumb">
+                                <a class="button" href="#">
+                                    <i class="fa fa-archive"></i>
+                                    <h5>Project Management</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
-                                </a> </article>
+                                </a>
+                            </article>
                         </li>
 
                         <!-- Security -->
-                        <li class="col-md-4" data-content="#colio_c3">
-                            <article class="thumb"><a class="button colio-link" href="#"> <i class="fas
-                            fa-shield-alt"></i>
-                                    <h5>Test Management</h5>
+                        <li class="col-md-4">
+                            <article class="thumb">
+                                <a class="button" href="#">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <h5>Business Analysis</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
-                                </a> </article>
+                                </a>
+                            </article>
                         </li>
 
                         <!-- Worth -->
-                        <li class="col-md-4" data-content="#colio_c4">
-                            <article class="thumb"><a class="button colio-link" href="#"> <i class="fa fa-rocket"></i>
-                                    <h5>PMO Services</h5>
+                        <li class="col-md-4">
+                            <article class="thumb">
+                                <a class="button" href="#">
+                                    <i class="fa fa-rocket"></i>
+                                    <h5>enterprise architecture</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
-                                </a> </article>
+                                </a>
+                            </article>
                         </li>
 
                         <!-- Worth -->
-                        <li class="col-md-4" data-content="#colio_c5">
-                            <article class="thumb"><a class="button colio-link" href="#"> <i class="far
-                            fa-comments"></i>
-                                    <h5>Change Management</h5>
+                        <li class="col-md-4">
+                            <article class="thumb">
+                                <a class="button" href="#">
+                                    <i class="far fa-comments"></i>
+                                    <h5>agility coaching</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
-                                </a> </article>
+                                </a>
+                            </article>
                         </li>
 
                         <!-- Worth -->
-                        <li class="col-md-4" data-content="#colio_c6">
-                            <article class="thumb"><a class="button colio-link" href="#"> <i class="fa fa-bullhorn"></i>
-                                    <h5>Process Optimisation</h5>
+                        <li class="col-md-4">
+                            <article class="thumb">
+                                <a class="button" href="#">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <h5>Optimization process</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
-                                </a> </article>
+                                </a>
+                            </article>
                         </li>
                     </ul>
-                </div>
-            </div>
-
-            <!-- Analytics Tab Open -->
-            <div id="colio_c1" class="colio-content">
-                <div class="main">
-                    <div class="container">
-                        <div class="inside-colio">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <!-- Heading -->
-                                    <div class="heading text-left margin-bottom-40">
-                                        <h4>Analytics</h4>
-                                    </div>
-                                    <p> <strong> Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong> <br>
-                                        <br>
-                                        Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br>
-                                        <br>
-                                        Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam. </p>
-                                    <a href="#." class="btn btn-1 margin-top-30 margin-right-20">Contact Now <i class="fa fa-caret-right"></i></a> <a href="#." class="btn btn-1 margin-top-30">View Services <i class="fa fa-caret-right"></i></a> </div>
-                                <div class="col-md-4 text-right"> <img class="img-responsive" src="{{ asset('images/ipad.png') }}" alt=""> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Storage Tab Open -->
-            <div id="colio_c2" class="colio-content">
-                <div class="main">
-                    <div class="container">
-                        <div class="inside-colio">
-                            <div class="row">
-                                <div class="col-md-4 text-left"> <img class="img-responsive" src="{{ asset('images/ipad.png') }}" alt=""> </div>
-                                <div class="col-md-8">
-                                    <!-- Heading -->
-                                    <div class="heading text-left margin-bottom-40">
-                                        <h4>Storage</h4>
-                                    </div>
-                                    <p> <strong> Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong> <br>
-                                        <br>
-                                        Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br>
-                                        <br>
-                                        Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam. </p>
-                                    <a href="#." class="btn btn-1 margin-top-30 margin-right-20">Contact Now <i class="fa fa-caret-right"></i></a> <a href="#." class="btn btn-1 margin-top-30">View Services <i class="fa fa-caret-right"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Security Tab Open -->
-            <div id="colio_c3" class="colio-content">
-                <div class="main">
-                    <div class="container">
-                        <div class="inside-colio">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <!-- Heading -->
-                                    <div class="heading text-left margin-bottom-40">
-                                        <h4>Security</h4>
-                                    </div>
-                                    <p> <strong> Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong> <br>
-                                        <br>
-                                        Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br>
-                                        <br>
-                                        Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam. </p>
-                                    <a href="#." class="btn btn-1 margin-top-30 margin-right-20">Contact Now <i class="fa fa-caret-right"></i></a> <a href="#." class="btn btn-1 margin-top-30">View Services <i class="fa fa-caret-right"></i></a> </div>
-                                <div class="col-md-4 text-right"> <img class="img-responsive" src="{{ asset('images/ipad.png') }}" alt=""> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Storage Tab Open -->
-            <div id="colio_c4" class="colio-content">
-                <div class="main">
-                    <div class="container">
-                        <div class="inside-colio">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <!-- Heading -->
-                                    <div class="heading text-left margin-bottom-40">
-                                        <h4>Worth</h4>
-                                    </div>
-                                    <p> <strong> Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong> <br>
-                                        <br>
-                                        Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br>
-                                        <br>
-                                        Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam. </p>
-                                    <a href="#." class="btn btn-1 margin-top-30 margin-right-20">Contact Now <i class="fa fa-caret-right"></i></a> <a href="#." class="btn btn-1 margin-top-30">View Services <i class="fa fa-caret-right"></i></a> </div>
-                                <div class="col-md-4 text-right"> <img class="img-responsive" src="{{ asset('images/ipad.png') }}" alt=""> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Security Tab Open -->
-            <div id="colio_c5" class="colio-content">
-                <div class="main">
-                    <div class="container">
-                        <div class="inside-colio">
-                            <div class="row">
-                                <div class="col-md-4 text-left"> <img class="img-responsive" src="{{ asset('images/ipad.png') }}" alt=""> </div>
-                                <div class="col-md-8">
-                                    <!-- Heading -->
-                                    <div class="heading text-left margin-bottom-40">
-                                        <h4>Dialogue</h4>
-                                    </div>
-                                    <p> <strong> Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong> <br>
-                                        <br>
-                                        Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br>
-                                        <br>
-                                        Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam. </p>
-                                    <a href="#." class="btn btn-1 margin-top-30 margin-right-20">Contact Now <i class="fa fa-caret-right"></i></a> <a href="#." class="btn btn-1 margin-top-30">View Services <i class="fa fa-caret-right"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Security Tab Open -->
-            <div id="colio_c6" class="colio-content">
-                <div class="main">
-                    <div class="container">
-                        <div class="inside-colio">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <!-- Heading -->
-                                    <div class="heading text-left margin-bottom-40">
-                                        <h4>Direction</h4>
-                                    </div>
-                                    <p> <strong> Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong> <br>
-                                        <br>
-                                        Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br>
-                                        <br>
-                                        Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam. </p>
-                                    <a href="#." class="btn btn-1 margin-top-30 margin-right-20">Contact Now <i class="fa fa-caret-right"></i></a> <a href="#." class="btn btn-1 margin-top-30">View Services <i class="fa fa-caret-right"></i></a> </div>
-                                <div class="col-md-4 text-right">
-                                    <img class="img-responsive" src="{{ asset('images/ipad.png') }}" alt=""> </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -500,7 +371,7 @@
                                 <li>
                                     <div class="media">
                                         <div class="media-body">
-                                            <h6>Banks</h6>
+                                            <h6>Banks & Financial</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                         <div class="media-right">
@@ -511,7 +382,7 @@
                                 <li>
                                     <div class="media">
                                         <div class="media-body">
-                                            <h6>Wealth and Asset Management</h6>
+                                            <h6>Insurance Companies / Pension Funds</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                         <div class="media-right">
@@ -522,7 +393,7 @@
                                 <li>
                                     <div class="media">
                                         <div class="media-body">
-                                            <h6>Insurance Companies / Pension Funds</h6>
+                                            <h6>Public Sector</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                         <div class="media-right">
@@ -546,7 +417,7 @@
                                             <div class="icon"> <i class="fa fa-cog"></i> </div>
                                         </div>
                                         <div class="media-body">
-                                            <h6>Energy</h6>
+                                            <h6>Energy &amp; Commodities</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                     </div>
@@ -568,7 +439,7 @@
                                             <div class="icon"> <i class="icon-bulb"></i> </div>
                                         </div>
                                         <div class="media-body">
-                                            <h6>Not for Profit Organizations</h6>
+                                            <h6>Not for Profit Organizations / Specialized agencies</h6>
                                             <p>Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus,  ultricies id orci.</p>
                                         </div>
                                     </div>
